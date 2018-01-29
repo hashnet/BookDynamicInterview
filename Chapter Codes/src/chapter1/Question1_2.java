@@ -1,4 +1,4 @@
-package Chapter1;
+package chapter1;
 
 public class Question1_2 {
 	private static void sumArr(int[] arr, int index) {

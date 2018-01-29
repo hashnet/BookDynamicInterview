@@ -1,13 +1,13 @@
-package Chapter1;
+package chapter1;
 
-public class Code1_3 {
+public class Code1_1 {
 	private static int sum(int n) {
-		int sum = 0;
-		for(int i=1; i<=n; i++) sum += i;
+		if(n == 0 || n == 1) return n;
 		
-		return sum;
+		return n + sum(n-1);
 	}
 	
+	//
 	public static void main(String[] args) {
 		System.out.println(sum(5));
 	}
